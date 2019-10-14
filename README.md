@@ -1,6 +1,11 @@
-# cla_demo
-Demo code for a clustering-based label-aware autoencoder (CLA).
+# DCAM_demo
+Demo code for a clustering-based aggregation model (DCAM).
 
-CLA.py demonstrates details of the corresponding CLA paper.
+DCAM demo.ipynb demonstrates details of the corresponding DCAM paper.
 This code is implemented by TensorFlow.
-We will upload datasets later, so the code is not executable currently.
+
+Because the datasets are a little large, we do not upload them to Github.
+And the code is not executable currently.
+
+You can ask me for data if you are interested in our work.
+Contact: coverdark@live.cn
