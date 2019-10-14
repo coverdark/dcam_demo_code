@@ -1,7 +1,7 @@
 # DCAM_demo
 Demo code for a clustering-based aggregation model (DCAM).
 
-DCAM demo.ipynb demonstrates details of the corresponding DCAM paper.
+DCAM_demo.py demonstrates details of the corresponding DCAM paper.
 This code is implemented by TensorFlow.
 
 Because the datasets are a little large, we do not upload them to Github.
