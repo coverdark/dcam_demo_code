@@ -204,7 +204,7 @@ with tf.name_scope('loss_overall'):
 # In[ ]:
 
 
-#================= training and inference =====================
+#================= pre-training =====================
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
     # assign batch variables (use whole data in one batch)
@@ -227,6 +227,7 @@ with tf.Session() as sess:
 # In[ ]:
 
 
+#================= training and inference =====================
 def smooth_one_hot_s(input_q, smooth=0.0):
     max_idx = np.argmax(input_q, -1)
     s = dls.convert_to_one_hot(max_idx, cluster_num, smooth*(cluster_num-1))
